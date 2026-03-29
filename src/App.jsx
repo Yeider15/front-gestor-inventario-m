@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       {/* Nuestra nueva vista de Login */}
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/registro" element={<RegisterPage />} />
     </Routes>
   );
 }
